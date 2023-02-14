@@ -1,0 +1,93 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color:#666;
+    line-height: 1.8rem;
+}
+.firstimage{
+    background-image: url('./images/image1.png');
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.secondimage{
+    background-image: url('./images/image2.png');
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.thirdimage{
+    background-image: url('./images/image3.png');
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.parentdata{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+.image1text{
+    padding: 20px;
+    background-color: #313534;
+    color: #fff;
+}
+.section-one{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:80px;
+    padding-right:80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-two{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:80px;
+    padding-right:80px;
+    text-align: center;
+    background-color: #282e34;
+    color: #ddd;
+
+}
+
+.image2text{
+    padding: 20px;
+    background-color: rgb(228 228 228 / 8%); 
+    backdrop-filter: blur(8px);
+    color: #fff;
+    font-weight: 600;
+}
+
+.section-three{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:80px;
+    padding-right:80px;
+    text-align: center;
+    background-color: #282e34;
+    color: #ddd;
+
+}
+
